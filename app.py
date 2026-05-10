@@ -115,7 +115,7 @@ with st.sidebar:
     
     st.markdown("---")
     
-    st.markdown("### 👥 Equipe InsurMinds")
+    st.markdown("### 👥 Equipe DataShield")
     st.markdown("""
     - Arthur Pontes Motta
     - Daniel Norberto
@@ -210,7 +210,7 @@ st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #666;">
     <small>
-        <strong>ChatBot de Seguros</strong> | InsurMinds Challenge 2 - i2a2.academy<br>
+        <strong>ChatBot de Seguros</strong> | Desafio InsurMinds 2 - i2a2.academy<br>
         Arthur Pontes Motta • Daniel Norberto • Maria Clara Peres<br>
         <em>Dados baseados em fontes oficiais: SUSEP, CNseg, Insurance QA Dataset (Kaggle)</em>
     </small>

@@ -1,6 +1,6 @@
-================================================================================
+﻿================================================================================
 FONTES DE DADOS REAIS - CHATBOT DE SEGUROS
-InsurMinds Challenge 2 - i2a2.academy
+Desafio InsurMinds 2 - i2a2.academy
 ================================================================================
 
 Data da coleta: 10/05/2026 19:07
@@ -8,49 +8,49 @@ Data da coleta: 10/05/2026 19:07
 METODOLOGIA DE COLETA
 --------------------------------------------------------------------------------
 
-Este projeto utiliza DADOS REAIS e VERIFICÁVEIS de fontes oficiais:
+Este projeto utiliza DADOS REAIS e VERIFICÃVEIS de fontes oficiais:
 
-1. DATASETS PÚBLICOS
+1. DATASETS PÃšBLICOS
    - Insurance QA Dataset (Kaggle)
      URL: https://www.kaggle.com/datasets/ojassrivastava18/insurance-qa
-     Descrição: Dataset acadêmico com perguntas/respostas sobre seguros
+     DescriÃ§Ã£o: Dataset acadÃªmico com perguntas/respostas sobre seguros
      Paper: 'Applying Deep Learning to Answer Selection' (ASRU 2015)
-     Uso: Tradução e adaptação para contexto brasileiro
+     Uso: TraduÃ§Ã£o e adaptaÃ§Ã£o para contexto brasileiro
 
 2. DADOS ABERTOS GOVERNO FEDERAL
    - SUSEP - Bases Anonimizadas
      URL: https://www.gov.br/susep/pt-br/central-de-conteudos/dados-estatisticos/bases-anonimizadas
-     Descrição: Dados oficiais de seguros auto, rural e compreensivo
+     DescriÃ§Ã£o: Dados oficiais de seguros auto, rural e compreensivo
      Conformidade: LGPD (dados anonimizados)
      Status: Plano de Dados Abertos 2024-2026
 
    - Portal Dados.gov.br
      URL: https://dados.gov.br/organization/superintendencia-de-seguros-privados-susep
-     Descrição: Provisões técnicas, sinistros, informações contábeis
+     DescriÃ§Ã£o: ProvisÃµes tÃ©cnicas, sinistros, informaÃ§Ãµes contÃ¡beis
 
-3. LEGISLAÇÃO E REGULAMENTAÇÃO
-   - Código Civil Brasileiro (Arts. 757-802)
+3. LEGISLAÃ‡ÃƒO E REGULAMENTAÃ‡ÃƒO
+   - CÃ³digo Civil Brasileiro (Arts. 757-802)
    - Lei Complementar 126/2007 (SUSEP)
    - Lei 4.594/1964 (Corretores)
-   - Resoluções CNSP (332/2015, 382/2020, 535/2016)
-   - Circular SUSEP 269/2004 (Classe de Bônus)
+   - ResoluÃ§Ãµes CNSP (332/2015, 382/2020, 535/2016)
+   - Circular SUSEP 269/2004 (Classe de BÃ´nus)
 
-4. ÓRGÃOS REGULADORES E ENTIDADES SETORIAIS
-   - SUSEP - Superintendência de Seguros Privados
-   - CNseg - Confederação Nacional das Seguradoras
-   - FenSeg - Federação Nacional de Seguros Gerais
-   - FenaPrevi - Federação Nacional de Previdência
-   - ANS - Agência Nacional de Saúde Suplementar
+4. Ã“RGÃƒOS REGULADORES E ENTIDADES SETORIAIS
+   - SUSEP - SuperintendÃªncia de Seguros Privados
+   - CNseg - ConfederaÃ§Ã£o Nacional das Seguradoras
+   - FenSeg - FederaÃ§Ã£o Nacional de Seguros Gerais
+   - FenaPrevi - FederaÃ§Ã£o Nacional de PrevidÃªncia
+   - ANS - AgÃªncia Nacional de SaÃºde Suplementar
 
-5. FONTES PÚBLICAS DE SEGURADORAS
-   - Condições gerais publicadas (Porto Seguro, SulAmérica, Itaú)
+5. FONTES PÃšBLICAS DE SEGURADORAS
+   - CondiÃ§Ãµes gerais publicadas (Porto Seguro, SulAmÃ©rica, ItaÃº)
    - Guias de consumidor (Mapfre, Allianz, Liberty)
-   - FAQs institucionais públicas
+   - FAQs institucionais pÃºblicas
 
 6. DEFESA DO CONSUMIDOR
-   - Proteste - Associação de Consumidores
-   - Consumidor.gov.br - Portal oficial de reclamações
-   - Procon - Fundação de Proteção e Defesa do Consumidor
+   - Proteste - AssociaÃ§Ã£o de Consumidores
+   - Consumidor.gov.br - Portal oficial de reclamaÃ§Ãµes
+   - Procon - FundaÃ§Ã£o de ProteÃ§Ã£o e Defesa do Consumidor
 
 
 ================================================================================
@@ -59,69 +59,69 @@ FONTES UTILIZADAS NESTE PROJETO
 
 1. ANS + SUSEP
    URL: https://www.gov.br/ans
-   Origem: Regulamentação ANS e SUSEP
+   Origem: RegulamentaÃ§Ã£o ANS e SUSEP
 
-2. CNseg - Confederação Nacional das Seguradoras
+2. CNseg - ConfederaÃ§Ã£o Nacional das Seguradoras
    URL: https://cnseg.org.br
    Origem: Material educativo CNseg
 
 3. Circular SUSEP 269/2004
    URL: https://www.gov.br/susep
-   Origem: Regulamentação oficial
+   Origem: RegulamentaÃ§Ã£o oficial
 
-4. Condições Gerais - Mapfre, Liberty, Allianz
+4. CondiÃ§Ãµes Gerais - Mapfre, Liberty, Allianz
    URL: https://www.mapfre.com.br
-   Origem: Análise de condições gerais das 3 seguradoras
+   Origem: AnÃ¡lise de condiÃ§Ãµes gerais das 3 seguradoras
 
-5. Código Civil Brasileiro - Arts. 792-802
+5. CÃ³digo Civil Brasileiro - Arts. 792-802
    URL: http://www.planalto.gov.br
-   Origem: Legislação brasileira vigente
+   Origem: LegislaÃ§Ã£o brasileira vigente
 
-6. FenaPrevi - Federação Nacional de Previdência
+6. FenaPrevi - FederaÃ§Ã£o Nacional de PrevidÃªncia
    URL: https://fenaprevi.org.br
    Origem: Guia de produtos FenaPrevi
 
-7. Guia do Consumidor - Seguradoras (Porto, SulAmérica, Itaú)
+7. Guia do Consumidor - Seguradoras (Porto, SulAmÃ©rica, ItaÃº)
    URL: https://www.portoseguro.com.br
-   Origem: Compilação de guias oficiais das 3 maiores seguradoras
+   Origem: CompilaÃ§Ã£o de guias oficiais das 3 maiores seguradoras
 
-8. Lei 4.594/1964 - Profissão de Corretor
+8. Lei 4.594/1964 - ProfissÃ£o de Corretor
    URL: http://www.planalto.gov.br
-   Origem: Lei federal que regulamenta a profissão
+   Origem: Lei federal que regulamenta a profissÃ£o
 
 9. Lei Complementar 126/2007
    URL: https://www.gov.br/susep
-   Origem: Lei de criação da SUSEP
+   Origem: Lei de criaÃ§Ã£o da SUSEP
 
 10. Portal Consumidor.gov.br + SUSEP
    URL: https://www.consumidor.gov.br
-   Origem: Canal oficial de reclamações do governo
+   Origem: Canal oficial de reclamaÃ§Ãµes do governo
 
 11. Proteste - Guia do Consumidor
    URL: https://www.proteste.org.br
    Origem: Guia oficial de defesa do consumidor
 
-12. Resolução CNSP 332/2015
+12. ResoluÃ§Ã£o CNSP 332/2015
    URL: https://www.gov.br/susep
-   Origem: Regulamentação oficial CNSP
+   Origem: RegulamentaÃ§Ã£o oficial CNSP
 
-13. Resolução CNSP 382/2020
+13. ResoluÃ§Ã£o CNSP 382/2020
    URL: https://www.gov.br/susep
-   Origem: Regulamentação vigente
+   Origem: RegulamentaÃ§Ã£o vigente
 
-14. SUSEP - Glossário
+14. SUSEP - GlossÃ¡rio
    URL: https://www.gov.br/susep
-   Origem: Glossário oficial SUSEP
+   Origem: GlossÃ¡rio oficial SUSEP
 
-15. SUSEP - Glossário + Insurance QA
+15. SUSEP - GlossÃ¡rio + Insurance QA
    URL: https://www.gov.br/susep
-   Origem: Glossário oficial + dataset Insurance QA traduzido
+   Origem: GlossÃ¡rio oficial + dataset Insurance QA traduzido
 
-16. SUSEP - Glossário de Seguros
+16. SUSEP - GlossÃ¡rio de Seguros
    URL: https://www.gov.br/susep
-   Origem: Glossário oficial SUSEP 2024
+   Origem: GlossÃ¡rio oficial SUSEP 2024
 
-17. SUSEP - Guia de Orientação
+17. SUSEP - Guia de OrientaÃ§Ã£o
    URL: https://www.gov.br/susep
    Origem: Material educativo oficial
 
@@ -131,29 +131,29 @@ FONTES UTILIZADAS NESTE PROJETO
 
 19. SUSEP AUTOSEG + FenSeg
    URL: http://www2.susep.gov.br/menuestatistica/Autoseg/principal.aspx
-   Origem: Sistema oficial de estatísticas SUSEP
+   Origem: Sistema oficial de estatÃ­sticas SUSEP
 
 
 ================================================================================
 CONFORMIDADE LEGAL
 ================================================================================
 
-✅ Lei Geral de Proteção de Dados (LGPD - Lei 13.709/2018)
-✅ Código de Defesa do Consumidor (Lei 8.078/1990)
-✅ Lei de Acesso à Informação (Lei 12.527/2011)
-✅ Decreto 8.777/2016 (Dados Abertos do Poder Executivo)
+âœ… Lei Geral de ProteÃ§Ã£o de Dados (LGPD - Lei 13.709/2018)
+âœ… CÃ³digo de Defesa do Consumidor (Lei 8.078/1990)
+âœ… Lei de Acesso Ã  InformaÃ§Ã£o (Lei 12.527/2011)
+âœ… Decreto 8.777/2016 (Dados Abertos do Poder Executivo)
 
 ================================================================================
-VALIDAÇÃO E ESTATÍSTICAS
+VALIDAÃ‡ÃƒO E ESTATÃSTICAS
 ================================================================================
 
 Total de FAQs coletadas: 21
 Total de categorias: 6
-Total de fontes únicas: 19
-Todas as FAQs possuem: fonte + link verificável
+Total de fontes Ãºnicas: 19
+Todas as FAQs possuem: fonte + link verificÃ¡vel
 
 ================================================================================
-EQUIPE RESPONSÁVEL
+EQUIPE RESPONSÃVEL
 ================================================================================
 
 - Arthur Pontes Motta (Representante)
@@ -166,11 +166,12 @@ EQUIPE RESPONSÁVEL
   LinkedIn: https://www.linkedin.com/in/maria-clara-peres/
 
 ================================================================================
-REPOSITÓRIO DO PROJETO
+REPOSITÃ“RIO DO PROJETO
 ================================================================================
 
 GitHub: https://github.com/arthurpmotta02/insurminds-chatbot
 
 ================================================================================
-Documento gerado automaticamente em 10/05/2026 às 19:07
+Documento gerado automaticamente em 10/05/2026 Ã s 19:07
 ================================================================================
+

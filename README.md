@@ -1,20 +1,22 @@
-# 🛡️ ChatBot de Atendimento para Seguros - InsurMinds Challenge
+﻿# 🛡️ ChatBot de Atendimento para Seguros
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/streamlit-1.28+-red.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-**Projeto desenvolvido para o InsurMinds Challenge 2 - i2a2.academy**
+**Projeto desenvolvido para o Desafio InsurMinds Challenge 2 - i2a2.academy**
 
-Um assistente virtual inteligente para atendimento automatizado em seguros, utilizando RAG (Retrieval-Augmented Generation) e IA Generativa para fornecer respostas precisas e contextualizadas **baseadas em dados REAIS de fontes oficiais**.
+Um assistente virtual inteligente para atendimento automatizado em seguros, utilizando RAG (Retrieval-Augmented Generation) com **dados REAIS de fontes verificáveis**.
 
 ---
 
-## 👥 Equipe InsurMinds
+## 👥 Equipe DataShield
 
 - **Arthur Pontes Motta** (Representante) - [LinkedIn](https://www.linkedin.com/in/arthurpmotta/)
 - **Daniel Norberto** - [LinkedIn](https://www.linkedin.com/in/daniel-norberto-72ba71264/)
 - **Maria Clara Peres** - [LinkedIn](https://www.linkedin.com/in/maria-clara-peres/)
+
+**Contato:** arthurpmotta02@gmail.com
 
 **Repositório:** [https://github.com/arthurpmotta02/insurminds-chatbot](https://github.com/arthurpmotta02/insurminds-chatbot)
 
@@ -23,9 +25,8 @@ Um assistente virtual inteligente para atendimento automatizado em seguros, util
 ## 📋 Índice
 
 - [Visão Geral](#-visão-geral)
-- [Dados Reais](#-dados-reais-utilizados)
+- [Dados Reais Utilizados](#-dados-reais-utilizados)
 - [Funcionalidades](#-funcionalidades)
-- [Arquitetura](#-arquitetura)
 - [Tecnologias](#-tecnologias-utilizadas)
 - [Instalação](#-instalação)
 - [Como Usar](#-como-usar)
@@ -117,10 +118,10 @@ Ver arquivo: `data/FONTES_DADOS.txt` (gerado automaticamente com todas as refer�
 - Chat em tempo real via Streamlit
 - Design responsivo e amigável
 - Histórico de conversas
-- Ações rápidas com exemplos
+- Botões de ação rápida com exemplos
 
 ### 3. **Base de Conhecimento Verificável**
-- 45+ FAQs com fontes oficiais
+- 30+ FAQs com fontes oficiais
 - Documentação técnica abrangente
 - Links para todas as fontes
 - Cobertura de:
@@ -133,42 +134,6 @@ Ver arquivo: `data/FONTES_DADOS.txt` (gerado automaticamente com todas as refer�
 - Registro de todas interações
 - Analytics de uso
 - Exportação em JSON
-
----
-
-## 🏗️ Arquitetura
-
-```
-┌─────────────────┐
-│   Usuário       │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────────────────────┐
-│  Interface Streamlit (app.py)   │
-└────────┬────────────────────────┘
-         │
-         ▼
-┌─────────────────────────────────┐
-│  Chatbot Engine (chatbot.py)    │
-│  - Gerencia conversas            │
-│  - Processa mensagens            │
-└────────┬────────────────────────┘
-         │
-         ▼
-┌─────────────────────────────────┐
-│  RAG Engine (rag_engine.py)     │
-│  - Busca semântica (TF-IDF)     │
-│  - Recupera FAQs relevantes     │
-└────────┬────────────────────────┘
-         │
-         ▼
-┌─────────────────────────────────┐
-│  Base de Dados REAL              │
-│  - knowledge_base.json           │
-│  - Fontes verificáveis           │
-└──────────────────────────────────┘
-```
 
 ---
 
@@ -217,7 +182,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # 4. Gere a base de dados REAL
-python scripts/download_real_data.py
+python scripts/download_real_insurance_data.py
 
 # 5. Execute o chatbot
 streamlit run app.py
@@ -242,26 +207,29 @@ O navegador abrirá automaticamente em `http://localhost:8052`
 
 1. **Digite sua dúvida** no campo inferior
 2. **Aguarde a resposta** (< 2 segundos)
-3. **Use ações rápidas** para exemplos
+3. **Use os botões de ação rápida** para exemplos
 4. **Clique em "Nova Conversa"** para recomeçar
 
 ---
 
 ## 📊 Evidências de Execução
 
-### Testes Realizados:
+### Screenshots Disponíveis
 
-- ✅ Teste do motor RAG (busca semântica)
-- ✅ Teste de 8 cenários conversacionais
-- ✅ Validação de fontes de dados
-- ✅ Teste de performance
+Todas as evidências estão em: `docs/evidencias/`
 
-### Resultados:
+1. **01_tela_inicial.png** - Interface do chatbot
+2. **02_conversa_funcionando.png** - Exemplo de conversa
+3. **03_botoes_acoes.png** - Botões de ação rápida
+4. **04_knowledge_base.png** - Base de dados com fontes
+5. **05_fontes_dados.png** - Documentação da metodologia
 
-- **Taxa de sucesso:** 100% (todas interações geraram respostas apropriadas)
-- **Tempo de resposta:** < 2 segundos
-- **Cobertura:** 45+ FAQs com fontes verificáveis
-- **Logs:** Disponíveis em `logs/`
+### Resultados dos Testes:
+
+- ✅ **Taxa de sucesso:** 100% (todas interações geraram respostas apropriadas)
+- ✅ **Tempo de resposta:** < 2 segundos
+- ✅ **Cobertura:** 30+ FAQs com fontes verificáveis
+- ✅ **Logs:** Disponíveis em `logs/`
 
 ---
 
@@ -285,20 +253,30 @@ O navegador abrirá automaticamente em `http://localhost:8052`
 insurminds-chatbot/
 │
 ├── data/                          # Base de dados REAL
-│   ├── knowledge_base.json        # 45+ FAQs com fontes
-│   └── FONTES_DADOS.txt           # Lista de fontes oficiais
+│   ├── knowledge_base.json        # 30+ FAQs com fontes
+│   ├── FONTES_DADOS.txt           # Lista de fontes oficiais
+│   └── documentacao_seguros.txt   # Documentação técnica
 │
 ├── src/                           # Código fonte
 │   ├── rag_engine.py              # Motor RAG
-│   └── chatbot.py                 # Lógica do chatbot
+│   ├── chatbot.py                 # Lógica do chatbot
+│   └── __init__.py
 │
 ├── scripts/                       # Scripts auxiliares
-│   └── download_real_data.py      # Gera base de dados
+│   └── download_real_insurance_data.py  # Gera base de dados
+│
+├── docs/                          # Documentação
+│   └── evidencias/                # Screenshots de execução
 │
 ├── logs/                          # Logs de conversas
 │
+├── .streamlit/                    # Configuração Streamlit
+│   └── config.toml
+│
 ├── app.py                         # Interface Streamlit
 ├── requirements.txt               # Dependências
+├── test_demo.py                   # Testes
+├── .gitignore
 └── README.md                      # Este arquivo
 ```
 
@@ -312,9 +290,10 @@ Este projeto está sob a licença MIT.
 
 ## 📞 Contato
 
-**Equipe InsurMinds**
+**Equipe DataShield**
 
 - **Arthur Pontes Motta** (Representante)
+  - Email: arthurpmotta02@gmail.com
   - LinkedIn: https://www.linkedin.com/in/arthurpmotta/
 
 - **Daniel Norberto**
@@ -329,17 +308,32 @@ Este projeto está sob a licença MIT.
 
 ## 🙏 Agradecimentos
 
-- **i2a2.academy** pelo desafio e oportunidade
+- **i2a2.academy** pelo desafio InsurMinds Challenge 2
 - **SUSEP** pelos dados públicos
+- **Kaggle** pelo Insurance QA Dataset
 - **CNseg** pelas informações do setor
 - **Comunidade Streamlit** pela documentação
 
 ---
 
+## 🏆 Diferenciais do Projeto
+
+✅ **Dados Verificáveis**: Todas as FAQs têm fonte + link + origem documentada  
+✅ **Dataset Acadêmico**: Uso do Insurance QA (Kaggle) com paper científico  
+✅ **Dados Brasileiros**: SUSEP como fonte oficial de regulamentação  
+✅ **Metodologia Transparente**: Processo de coleta completamente documentado  
+✅ **Conformidade Legal**: LGPD, Lei de Acesso à Informação  
+✅ **Interface Profissional**: Streamlit com design customizado  
+✅ **Sistema RAG Funcional**: Busca semântica com TF-IDF  
+
+---
+
 <div align="center">
 
-**Desenvolvido com ❤️ pela Equipe InsurMinds**
+**Desenvolvido com ❤️ pela Equipe DataShield**
 
-*InsurMinds Challenge 2 - i2a2.academy*
+*Desafio InsurMinds Challenge 2 - i2a2.academy*
+
+**Maio 2026**
 
 </div>
