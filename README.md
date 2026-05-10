@@ -12,13 +12,37 @@ Um assistente virtual inteligente para atendimento automatizado em seguros, util
 
 ## 👥 Equipe DataShield
 
-- **Arthur Pontes Motta** (Representante) - [LinkedIn](https://www.linkedin.com/in/arthurpmotta/)
-- **Daniel Norberto** - [LinkedIn](https://www.linkedin.com/in/daniel-norberto-72ba71264/)
-- **Maria Clara Peres** - [LinkedIn](https://www.linkedin.com/in/maria-clara-peres/)
-
-**Contato:** arthurpmotta02@gmail.com
+| Membro | Função | LinkedIn | Contato |
+|--------|--------|----------|---------|
+| **Arthur Pontes Motta** | Representante | [LinkedIn](https://www.linkedin.com/in/arthurpmotta/) | arthurpmotta02@gmail.com |
+| **Daniel Norberto** | Desenvolvedor | [LinkedIn](https://www.linkedin.com/in/daniel-norberto-72ba71264/) | - |
+| **Maria Clara Peres** | Desenvolvedora | [LinkedIn](https://www.linkedin.com/in/maria-clara-peres/) | - |
 
 **Repositório:** [https://github.com/arthurpmotta02/insurminds-chatbot](https://github.com/arthurpmotta02/insurminds-chatbot)
+
+---
+
+## 📸 Preview do Projeto
+
+### Interface Principal
+![Tela Inicial](docs/evidencias/01_tela_inicial.png)
+*Tela inicial do chatbot com mensagem de boas-vindas*
+
+### Conversa Funcionando
+![Conversa](docs/evidencias/02_conversa_funcionando.png)
+*Exemplo de interação: pergunta sobre seguros com resposta baseada em fontes oficiais*
+
+### Botões de Ação Rápida
+![Botões](docs/evidencias/03_botoes_acoes.png)
+*Sidebar com botões interativos para perguntas frequentes*
+
+### Base de Dados com Fontes Verificáveis
+![Knowledge Base](docs/evidencias/04_knowledge_base.png)
+*Estrutura JSON mostrando fonte, link e origem dos dados para cada FAQ*
+
+### Documentação da Metodologia
+![Fontes](docs/evidencias/05_fontes_dados.png)
+*Arquivo FONTES_DADOS.txt documentando Insurance QA Dataset (Kaggle) e outras fontes*
 
 ---
 
@@ -214,36 +238,52 @@ O navegador abrirá automaticamente em `http://localhost:8052`
 
 ## 📊 Evidências de Execução
 
-### Screenshots Disponíveis
+### Screenshots Demonstrando Funcionamento
 
-Todas as evidências estão em: `docs/evidencias/`
+Todas as evidências estão disponíveis em: `docs/evidencias/`
 
-1. **01_tela_inicial.png** - Interface do chatbot
-2. **02_conversa_funcionando.png** - Exemplo de conversa
-3. **03_botoes_acoes.png** - Botões de ação rápida
-4. **04_knowledge_base.png** - Base de dados com fontes
-5. **05_fontes_dados.png** - Documentação da metodologia
+| Screenshot | Descrição |
+|-----------|-----------|
+| `01_tela_inicial.png` | Interface do chatbot com mensagem de boas-vindas |
+| `02_conversa_funcionando.png` | Exemplo de conversa real com resposta baseada em fontes |
+| `03_botoes_acoes.png` | Botões interativos da sidebar (Dicas Rápidas e Ações) |
+| `04_knowledge_base.png` | JSON mostrando estrutura com fonte + link + origem_dados |
+| `05_fontes_dados.png` | Documentação mencionando Insurance QA (Kaggle) e SUSEP |
 
 ### Resultados dos Testes:
 
 - ✅ **Taxa de sucesso:** 100% (todas interações geraram respostas apropriadas)
 - ✅ **Tempo de resposta:** < 2 segundos
 - ✅ **Cobertura:** 30+ FAQs com fontes verificáveis
-- ✅ **Logs:** Disponíveis em `logs/`
+- ✅ **Rastreabilidade:** Cada resposta cita a fonte oficial
+
+---
+
+## 🏆 Diferenciais do Projeto
+
+| Característica | Detalhamento |
+|---------------|--------------|
+| ✅ **Dados Verificáveis** | Todas as FAQs têm fonte + link + origem documentada |
+| ✅ **Dataset Acadêmico** | Insurance QA (Kaggle) com paper científico (ASRU 2015) |
+| ✅ **Dados Brasileiros** | SUSEP como fonte oficial de regulamentação |
+| ✅ **Metodologia Transparente** | Processo de coleta completamente documentado |
+| ✅ **Conformidade Legal** | LGPD, Lei de Acesso à Informação |
+| ✅ **Interface Profissional** | Streamlit com design customizado e botões interativos |
+| ✅ **Sistema RAG Funcional** | Busca semântica com TF-IDF para respostas contextualizadas |
 
 ---
 
 ## 🔮 Melhorias Futuras
 
 ### Curto Prazo:
-- [ ] Integração completa com Claude API
-- [ ] Embeddings neurais (sentence-transformers)
+- [ ] Integração completa com Claude API para respostas mais elaboradas
+- [ ] Embeddings neurais (sentence-transformers) para melhor similaridade
 - [ ] Dashboard de analytics avançado
 
 ### Médio Prazo:
 - [ ] Multicanal (WhatsApp, Telegram)
-- [ ] Integração com CRM
-- [ ] Voice assistant
+- [ ] Integração com CRM de seguradoras
+- [ ] Voice assistant com reconhecimento de voz
 
 ---
 
@@ -258,7 +298,7 @@ insurminds-chatbot/
 │   └── documentacao_seguros.txt   # Documentação técnica
 │
 ├── src/                           # Código fonte
-│   ├── rag_engine.py              # Motor RAG
+│   ├── rag_engine.py              # Motor RAG (TF-IDF + Cosine Similarity)
 │   ├── chatbot.py                 # Lógica do chatbot
 │   └── __init__.py
 │
@@ -267,6 +307,11 @@ insurminds-chatbot/
 │
 ├── docs/                          # Documentação
 │   └── evidencias/                # Screenshots de execução
+│       ├── 01_tela_inicial.png
+│       ├── 02_conversa_funcionando.png
+│       ├── 03_botoes_acoes.png
+│       ├── 04_knowledge_base.png
+│       └── 05_fontes_dados.png
 │
 ├── logs/                          # Logs de conversas
 │
@@ -288,52 +333,36 @@ Este projeto está sob a licença MIT.
 
 ---
 
-## 📞 Contato
-
-**Equipe DataShield**
-
-- **Arthur Pontes Motta** (Representante)
-  - Email: arthurpmotta02@gmail.com
-  - LinkedIn: https://www.linkedin.com/in/arthurpmotta/
-
-- **Daniel Norberto**
-  - LinkedIn: https://www.linkedin.com/in/daniel-norberto-72ba71264/
-
-- **Maria Clara Peres**
-  - LinkedIn: https://www.linkedin.com/in/maria-clara-peres/
-
-**Repositório**: https://github.com/arthurpmotta02/insurminds-chatbot
-
----
-
 ## 🙏 Agradecimentos
 
 - **i2a2.academy** pelo desafio InsurMinds Challenge 2
-- **SUSEP** pelos dados públicos
+- **SUSEP** pelos dados abertos do Governo Federal
 - **Kaggle** pelo Insurance QA Dataset
-- **CNseg** pelas informações do setor
-- **Comunidade Streamlit** pela documentação
-
----
-
-## 🏆 Diferenciais do Projeto
-
-✅ **Dados Verificáveis**: Todas as FAQs têm fonte + link + origem documentada  
-✅ **Dataset Acadêmico**: Uso do Insurance QA (Kaggle) com paper científico  
-✅ **Dados Brasileiros**: SUSEP como fonte oficial de regulamentação  
-✅ **Metodologia Transparente**: Processo de coleta completamente documentado  
-✅ **Conformidade Legal**: LGPD, Lei de Acesso à Informação  
-✅ **Interface Profissional**: Streamlit com design customizado  
-✅ **Sistema RAG Funcional**: Busca semântica com TF-IDF  
+- **CNseg** pelas informações do setor segurador
+- **Comunidade Streamlit** pela documentação e suporte
 
 ---
 
 <div align="center">
+
+## 📧 Contato
+
+**Dúvidas sobre o projeto?**
+
+Entre em contato com o representante da equipe:
+
+**Arthur Pontes Motta**  
+📧 arthurpmotta02@gmail.com  
+💼 [LinkedIn](https://www.linkedin.com/in/arthurpmotta/)
+
+---
 
 **Desenvolvido com ❤️ pela Equipe DataShield**
 
 *Desafio InsurMinds Challenge 2 - i2a2.academy*
 
 **Maio 2026**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/arthurpmotta02/insurminds-chatbot)
 
 </div>
