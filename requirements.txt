@@ -1,0 +1,7 @@
+streamlit>=1.28.0
+numpy>=1.24.0
+anthropic>=0.18.0
+
+# Opcional para análise de logs
+pandas>=2.0.0
+matplotlib>=3.7.0

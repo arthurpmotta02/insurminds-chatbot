@@ -1,0 +1,176 @@
+================================================================================
+FONTES DE DADOS REAIS - CHATBOT DE SEGUROS
+InsurMinds Challenge 2 - i2a2.academy
+================================================================================
+
+Data da coleta: 10/05/2026 19:07
+
+METODOLOGIA DE COLETA
+--------------------------------------------------------------------------------
+
+Este projeto utiliza DADOS REAIS e VERIFICÁVEIS de fontes oficiais:
+
+1. DATASETS PÚBLICOS
+   - Insurance QA Dataset (Kaggle)
+     URL: https://www.kaggle.com/datasets/ojassrivastava18/insurance-qa
+     Descrição: Dataset acadêmico com perguntas/respostas sobre seguros
+     Paper: 'Applying Deep Learning to Answer Selection' (ASRU 2015)
+     Uso: Tradução e adaptação para contexto brasileiro
+
+2. DADOS ABERTOS GOVERNO FEDERAL
+   - SUSEP - Bases Anonimizadas
+     URL: https://www.gov.br/susep/pt-br/central-de-conteudos/dados-estatisticos/bases-anonimizadas
+     Descrição: Dados oficiais de seguros auto, rural e compreensivo
+     Conformidade: LGPD (dados anonimizados)
+     Status: Plano de Dados Abertos 2024-2026
+
+   - Portal Dados.gov.br
+     URL: https://dados.gov.br/organization/superintendencia-de-seguros-privados-susep
+     Descrição: Provisões técnicas, sinistros, informações contábeis
+
+3. LEGISLAÇÃO E REGULAMENTAÇÃO
+   - Código Civil Brasileiro (Arts. 757-802)
+   - Lei Complementar 126/2007 (SUSEP)
+   - Lei 4.594/1964 (Corretores)
+   - Resoluções CNSP (332/2015, 382/2020, 535/2016)
+   - Circular SUSEP 269/2004 (Classe de Bônus)
+
+4. ÓRGÃOS REGULADORES E ENTIDADES SETORIAIS
+   - SUSEP - Superintendência de Seguros Privados
+   - CNseg - Confederação Nacional das Seguradoras
+   - FenSeg - Federação Nacional de Seguros Gerais
+   - FenaPrevi - Federação Nacional de Previdência
+   - ANS - Agência Nacional de Saúde Suplementar
+
+5. FONTES PÚBLICAS DE SEGURADORAS
+   - Condições gerais publicadas (Porto Seguro, SulAmérica, Itaú)
+   - Guias de consumidor (Mapfre, Allianz, Liberty)
+   - FAQs institucionais públicas
+
+6. DEFESA DO CONSUMIDOR
+   - Proteste - Associação de Consumidores
+   - Consumidor.gov.br - Portal oficial de reclamações
+   - Procon - Fundação de Proteção e Defesa do Consumidor
+
+
+================================================================================
+FONTES UTILIZADAS NESTE PROJETO
+================================================================================
+
+1. ANS + SUSEP
+   URL: https://www.gov.br/ans
+   Origem: Regulamentação ANS e SUSEP
+
+2. CNseg - Confederação Nacional das Seguradoras
+   URL: https://cnseg.org.br
+   Origem: Material educativo CNseg
+
+3. Circular SUSEP 269/2004
+   URL: https://www.gov.br/susep
+   Origem: Regulamentação oficial
+
+4. Condições Gerais - Mapfre, Liberty, Allianz
+   URL: https://www.mapfre.com.br
+   Origem: Análise de condições gerais das 3 seguradoras
+
+5. Código Civil Brasileiro - Arts. 792-802
+   URL: http://www.planalto.gov.br
+   Origem: Legislação brasileira vigente
+
+6. FenaPrevi - Federação Nacional de Previdência
+   URL: https://fenaprevi.org.br
+   Origem: Guia de produtos FenaPrevi
+
+7. Guia do Consumidor - Seguradoras (Porto, SulAmérica, Itaú)
+   URL: https://www.portoseguro.com.br
+   Origem: Compilação de guias oficiais das 3 maiores seguradoras
+
+8. Lei 4.594/1964 - Profissão de Corretor
+   URL: http://www.planalto.gov.br
+   Origem: Lei federal que regulamenta a profissão
+
+9. Lei Complementar 126/2007
+   URL: https://www.gov.br/susep
+   Origem: Lei de criação da SUSEP
+
+10. Portal Consumidor.gov.br + SUSEP
+   URL: https://www.consumidor.gov.br
+   Origem: Canal oficial de reclamações do governo
+
+11. Proteste - Guia do Consumidor
+   URL: https://www.proteste.org.br
+   Origem: Guia oficial de defesa do consumidor
+
+12. Resolução CNSP 332/2015
+   URL: https://www.gov.br/susep
+   Origem: Regulamentação oficial CNSP
+
+13. Resolução CNSP 382/2020
+   URL: https://www.gov.br/susep
+   Origem: Regulamentação vigente
+
+14. SUSEP - Glossário
+   URL: https://www.gov.br/susep
+   Origem: Glossário oficial SUSEP
+
+15. SUSEP - Glossário + Insurance QA
+   URL: https://www.gov.br/susep
+   Origem: Glossário oficial + dataset Insurance QA traduzido
+
+16. SUSEP - Glossário de Seguros
+   URL: https://www.gov.br/susep
+   Origem: Glossário oficial SUSEP 2024
+
+17. SUSEP - Guia de Orientação
+   URL: https://www.gov.br/susep
+   Origem: Material educativo oficial
+
+18. SUSEP - Portal do Consumidor
+   URL: https://www.gov.br/susep/pt-br/assuntos/cidadao
+   Origem: Guia do Consumidor SUSEP
+
+19. SUSEP AUTOSEG + FenSeg
+   URL: http://www2.susep.gov.br/menuestatistica/Autoseg/principal.aspx
+   Origem: Sistema oficial de estatísticas SUSEP
+
+
+================================================================================
+CONFORMIDADE LEGAL
+================================================================================
+
+✅ Lei Geral de Proteção de Dados (LGPD - Lei 13.709/2018)
+✅ Código de Defesa do Consumidor (Lei 8.078/1990)
+✅ Lei de Acesso à Informação (Lei 12.527/2011)
+✅ Decreto 8.777/2016 (Dados Abertos do Poder Executivo)
+
+================================================================================
+VALIDAÇÃO E ESTATÍSTICAS
+================================================================================
+
+Total de FAQs coletadas: 21
+Total de categorias: 6
+Total de fontes únicas: 19
+Todas as FAQs possuem: fonte + link verificável
+
+================================================================================
+EQUIPE RESPONSÁVEL
+================================================================================
+
+- Arthur Pontes Motta (Representante)
+  LinkedIn: https://www.linkedin.com/in/arthurpmotta/
+
+- Daniel Norberto
+  LinkedIn: https://www.linkedin.com/in/daniel-norberto-72ba71264/
+
+- Maria Clara Peres
+  LinkedIn: https://www.linkedin.com/in/maria-clara-peres/
+
+================================================================================
+REPOSITÓRIO DO PROJETO
+================================================================================
+
+GitHub: https://github.com/arthurpmotta02/insurminds-chatbot
+
+================================================================================
+Documento gerado automaticamente em 10/05/2026 às 19:07
+================================================================================

@@ -1,0 +1,173 @@
+# Documentação Técnica - Seguros no Brasil
+# BASEADO EM FONTES OFICIAIS E REGULAMENTAÇÃO VIGENTE
+
+## FONTES PRINCIPAIS:
+- SUSEP - Superintendência de Seguros Privados (gov.br/susep)
+- CNseg - Confederação Nacional das Seguradoras
+- Código Civil Brasileiro - Arts. 757 a 802
+- Resoluções CNSP (Conselho Nacional de Seguros Privados)
+
+## 1. CONCEITOS FUNDAMENTAIS DE SEGUROS
+
+### 1.1 Definição de Seguro
+O seguro é um contrato bilateral onde uma parte (segurador) se obriga, mediante o recebimento de um prêmio, a indenizar a outra parte (segurado) dos prejuízos resultantes de riscos futuros, previstos no contrato.
+
+Fonte: Código Civil Brasileiro, Art. 757
+
+### 1.2 Elementos Essenciais do Contrato de Seguro
+- Segurado: Pessoa física ou jurídica que contrata o seguro
+- Segurador: Empresa autorizada pela SUSEP a operar seguros
+- Risco: Evento futuro e incerto
+- Prêmio: Importância paga pelo segurado
+- Indenização: Valor pago pela seguradora em caso de sinistro
+- Apólice: Documento que formaliza o contrato
+
+Fonte: SUSEP - Glossário de Termos de Seguros
+
+## 2. SEGUROS DE AUTOMÓVEIS
+
+### 2.1 Coberturas Principais
+
+Colisão, Incêndio e Roubo: Danos ao veículo segurado decorrentes de colisão, capotagem, abalroamento, incêndio, raio, explosão, roubo ou furto qualificado.
+
+Responsabilidade Civil Facultativa de Veículos (RCF-V): Danos materiais e corporais causados a terceiros.
+
+Fonte: FenSeg - Federação Nacional de Seguros Gerais
+
+### 2.2 Sistema de Classe de Bônus
+O sistema de bônus-malus premia segurados sem sinistros:
+- Classe inicial: geralmente Classe 0
+- A cada ano sem sinistro: sobe uma classe (desconto aumenta)
+- Sinistro com culpa: pode descer várias classes
+- Desconto máximo: varia por seguradora, podendo chegar a 50% ou mais
+
+Fonte: SUSEP - Circular 269/2004
+
+### 2.3 Franquias
+Franquia é o valor que fica por conta do segurado em caso de sinistro.
+A franquia NÃO se aplica em: Perda total por roubo/furto, Terceiros (RCF-V), Assistência 24h.
+
+Fonte: Práticas de Mercado - Seguradoras Brasileiras
+
+## 3. SEGUROS RESIDENCIAIS
+
+### 3.1 Coberturas Básicas
+- Incêndio: Danos causados por fogo, raio, explosão
+- Vendaval, Fumaça, Queda de Aeronaves
+- Roubo e Furto Qualificado: De bens do interior da residência
+- Responsabilidade Civil Familiar: Danos involuntários a terceiros
+
+Fonte: Mapfre, Liberty, Allianz - Condições Gerais
+
+### 3.2 Responsabilidade Civil Familiar
+Cobre danos involuntários causados por: Segurado, cônjuge, filhos menores, empregados domésticos em serviço, animais de estimação.
+
+Fonte: SUSEP - Guia do Consumidor
+
+## 4. SEGUROS DE VIDA
+
+### 4.1 Modalidades Principais
+
+Morte: Natural ou acidental
+Invalidez: IPA (Invalidez Permanente por Acidente) - Total ou parcial
+Doenças Graves: Câncer, Infarto, AVC, Insuficiência renal, etc.
+
+Fonte: FenaPrevi - Federação Nacional de Previdência Privada
+
+### 4.2 Designação de Beneficiários
+Pode-se indicar qualquer pessoa como beneficiária.
+Ordem legal (se não houver indicação): cônjuge → descendentes → ascendentes → herdeiros legais.
+A indenização do seguro NÃO entra no inventário (exceto se beneficiário for "herdeiros legais").
+
+Fonte: Código Civil Brasileiro - Arts. 792 a 802
+
+## 5. PROCESSO DE SINISTRO
+
+### 5.1 Aviso de Sinistro
+Prazo para comunicação: Imediatamente ou conforme apólice (geralmente 24-48h)
+Canais: Telefone 24h, app, site, corretor
+
+### 5.2 Prazos Legais
+- Aceitação/recusa do sinistro: Até 30 dias após entrega completa da documentação
+- Pagamento da indenização: Após aceite, conforme apólice (geralmente até 30 dias)
+
+Fonte: Resolução CNSP 382/2020 - SUSEP
+
+## 6. REGULAMENTAÇÃO E ÓRGÃOS
+
+### 6.1 SUSEP - Superintendência de Seguros Privados
+Autarquia federal vinculada ao Ministério da Fazenda.
+Funções: Autorizar e fiscalizar seguradoras, regulamentar operações, proteger consumidores.
+
+Fonte: Lei Complementar 126/2007
+
+### 6.2 CNSP - Conselho Nacional de Seguros Privados
+Órgão normativo superior do Sistema Nacional de Seguros Privados.
+
+Fonte: Decreto-Lei 73/1966
+
+### 6.3 Corretor de Seguros
+Profissional habilitado pela SUSEP. Remuneração por comissão (paga pela seguradora).
+
+Fonte: Lei 4.594/1964 - Regulamentação da Profissão
+
+## 7. DIREITOS DO CONSUMIDOR
+
+### 7.1 Informação Clara
+Seguradoras devem fornecer informações claras sobre coberturas, exclusões, carências.
+
+### 7.2 Prazo de Arrependimento
+7 dias para desistir do seguro (contratação fora do estabelecimento ou à distância).
+Devolução integral do prêmio pago.
+
+Fonte: Código de Defesa do Consumidor - Lei 8.078/1990
+
+### 7.3 Canais de Reclamação
+1. SAC da seguradora
+2. Ouvidoria da seguradora
+3. SUSEP (ouvidoria e reclamações)
+4. Procon
+5. Consumidor.gov.br
+6. Juizado Especial Cível
+
+## 8. GLOSSÁRIO DE TERMOS TÉCNICOS
+
+- Agravamento de Risco: Aumento da probabilidade de sinistro
+- Apólice: Documento do contrato de seguro
+- Beneficiário: Pessoa que recebe a indenização
+- Capital Segurado: Valor máximo de indenização
+- Carência: Período sem cobertura após início
+- Endosso: Alteração no contrato durante vigência
+- Franquia: Valor de responsabilidade do segurado
+- Importância Segurada (IS): Valor do bem segurado
+- Prêmio: Valor pago pelo seguro
+- Sinistralidade: Relação entre sinistros e prêmios
+- Vigência: Período de validade do seguro
+
+Fonte: SUSEP - Glossário Oficial de Seguros
+
+---
+
+REFERÊNCIAS COMPLETAS:
+
+1. SUSEP - Superintendência de Seguros Privados (www.gov.br/susep)
+2. CNseg - Confederação Nacional das Seguradoras (cnseg.org.br)
+3. Código Civil Brasileiro - Arts. 757 a 802
+4. Código de Defesa do Consumidor - Lei 8.078/1990
+5. Lei Complementar 126/2007 - SUSEP
+6. Decreto-Lei 73/1966 - CNSP
+7. Lei 4.594/1964 - Corretores de Seguros
+8. Resoluções CNSP (332/2015, 382/2020, 535/2016)
+9. Circular SUSEP 269/2004
+10. FenSeg - Federação Nacional de Seguros Gerais
+11. FenaPrevi - Federação Nacional de Previdência Privada
+12. Proteste - Associação de Consumidores
+13. Consumidor.gov.br
+
+Documento compilado pela Equipe InsurMinds:
+- Arthur Pontes Motta
+- Daniel Norberto  
+- Maria Clara Peres
+
+InsurMinds Challenge 2 - i2a2.academy
+Maio 2026
