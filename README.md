@@ -16,7 +16,6 @@ Um assistente virtual inteligente para atendimento automatizado em seguros, util
 |--------|--------|----------|---------|
 | **Arthur Pontes Motta** | Representante | [LinkedIn](https://www.linkedin.com/in/arthurpmotta/) | arthurpmotta02@gmail.com |
 | **Daniel Norberto** | Desenvolvedor | [LinkedIn](https://www.linkedin.com/in/daniel-norberto-72ba71264/) | - |
-| **Maria Clara Peres** | Desenvolvedora | [LinkedIn](https://www.linkedin.com/in/maria-clara-peres/) | - |
 
 **Repositório:** [https://github.com/arthurpmotta02/insurminds-chatbot](https://github.com/arthurpmotta02/insurminds-chatbot)
 
@@ -358,6 +357,8 @@ Entre em contato com o representante da equipe:
 ---
 
 **Desenvolvido com ❤️ pela Equipe DataShield**
+
+Arthur Pontes Motta • Daniel Norberto
 
 *Desafio InsurMinds Challenge 2 - i2a2.academy*
 
