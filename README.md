@@ -15,7 +15,7 @@ Um assistente virtual inteligente para atendimento automatizado em seguros, util
 | Membro | Função | LinkedIn | Contato |
 |--------|--------|----------|---------|
 | **Arthur Pontes Motta** | Representante | [LinkedIn](https://www.linkedin.com/in/arthurpmotta/) | arthurpmotta02@gmail.com |
-| **Daniel Norberto** | Desenvolvedor | [LinkedIn](https://www.linkedin.com/in/daniel-norberto-72ba71264/) | - |
+| **Daniel Norberto** | Desenvolvedor | [LinkedIn](https://www.linkedin.com/in/daniel-norberto-72ba71264/) | norberto.cdaniel@gmail.com |
 
 **Repositório:** [https://github.com/arthurpmotta02/insurminds-chatbot](https://github.com/arthurpmotta02/insurminds-chatbot)
 
